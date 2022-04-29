@@ -1,0 +1,28 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+    outline:0; /*contorno de 0 */
+    box-sizing:border-box;/*tamanho da caixa e a borda da caixa*/
+    list-style:none;/*removendo lista marcadores de cada item da lista */
+    text-decoration: none;
+}
+:root{ /* definindo variaveis*/   /*posso chamar essas cores toda vez que eu precisar delas , facilita bastante*/ 
+    --color-bg:#1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary:#4db5ff;
+    --color-primary-variant: rgba(77 ,181, 255, 0.4);
+    --color-white:#fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+
+    /*caso eu precise alterar alguma cor ao longo do site eu simplesmente a altero aqui 
+    assim  nao preciso alterar class por class*/
+
+    --container-width-lg: 75%; /* é uma class que vai ser colocada em varias elementos esta é a largura */
+    --container-width-md:86%; /*outro tipo de largura*/
+    --container-width-sm:90% /*outro container de largura porem esse vai ser pequeno */
+}
+html {
+    scroll-behavior: smooth;
+    /*faz um rolamento de tela suave*/
+}
